@@ -28,5 +28,5 @@ function gerarSenha(){
 }
 function copySenha(){
     alert("Senha Copiada!!!")
-    navigator.clippboard.writeText(novaSenha)
+    navigator.clipboard.writeText(novaSenha)
 }
